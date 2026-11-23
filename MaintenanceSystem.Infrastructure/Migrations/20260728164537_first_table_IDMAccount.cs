@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace NewProject.Infrastructure.Migrations
+namespace MaintenanceSystem.Infrastructure.Migrations
 {
     /// <inheritdoc />
     public partial class first_table_IDMAccount : Migration

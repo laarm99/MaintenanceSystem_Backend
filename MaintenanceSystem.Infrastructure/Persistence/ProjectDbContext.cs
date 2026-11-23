@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using NewProject.Domain.Entities.IDM;
+using MaintenanceSystem.Domain.Entities.IDM;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NewProject.Infrastructure.Persistence
+namespace MaintenanceSystem.Infrastructure.Persistence
 {
     public class ProjectDbContext : DbContext
     {

@@ -30,9 +30,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NewProject.Application\NewProject.Application.csproj" />
-    <ProjectReference Include="..\NewProject.Common\NewProject.Common.csproj" />
-    <ProjectReference Include="..\NewProject.Infrastructure\NewProject.Infrastructure.csproj" />
+    <ProjectReference Include="..\MaintenanceSystem.Application\MaintenanceSystem.Application.csproj" />
+    <ProjectReference Include="..\MaintenanceSystem.Common\MaintenanceSystem.Common.csproj" />
+    <ProjectReference Include="..\MaintenanceSystem.Infrastructure\MaintenanceSystem.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,10 +1,10 @@
-﻿using NewProject.Application.Modules.Dashboard.DTOs;
-using NewProject.Common.Results;
+﻿using MaintenanceSystem.Application.Modules.Dashboard.DTOs;
+using MaintenanceSystem.Common.Results;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NewProject.Application.Modules.Dashboard
+namespace MaintenanceSystem.Application.Modules.Dashboard
 {
     public class DashboardService
     {

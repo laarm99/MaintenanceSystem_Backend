@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using NewProject.Common.Results;
+using MaintenanceSystem.Common.Results;
 using System.Net;
 
-namespace NewProject.Web.Extensions
+namespace MaintenanceSystem.Web.Extensions
 {
     public static class ControllerExtensions
     {

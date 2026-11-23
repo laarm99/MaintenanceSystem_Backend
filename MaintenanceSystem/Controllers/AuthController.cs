@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using NewProject.Domain.Entities.IDM;
-using NewProject.Infrastructure.Persistence;
+using MaintenanceSystem.Domain.Entities.IDM;
+using MaintenanceSystem.Infrastructure.Persistence;
 
 [Authorize]
 [ApiController]

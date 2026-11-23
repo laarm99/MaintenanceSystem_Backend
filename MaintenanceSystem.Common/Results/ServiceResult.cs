@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Text;
 
-namespace NewProject.Common.Results
+namespace MaintenanceSystem.Common.Results
 {
     public class ServiceResult<T>
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NewProject.Application.Modules.Dashboard.DTOs
+namespace MaintenanceSystem.Application.Modules.Dashboard.DTOs
 {
     public class DashboardGridDTO
     {

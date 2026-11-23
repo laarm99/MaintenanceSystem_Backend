@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace NewProject.Infrastructure.Migrations
+namespace MaintenanceSystem.Infrastructure.Migrations
 {
     /// <inheritdoc />
     public partial class IDM_Tables_added : Migration

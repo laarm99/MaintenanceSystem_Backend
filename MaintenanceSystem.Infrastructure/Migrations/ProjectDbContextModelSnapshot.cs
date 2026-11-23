@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using NewProject.Infrastructure.Persistence;
+using MaintenanceSystem.Infrastructure.Persistence;
 
 #nullable disable
 
-namespace NewProject.Infrastructure.Migrations
+namespace MaintenanceSystem.Infrastructure.Migrations
 {
     [DbContext(typeof(ProjectDbContext))]
     partial class ProjectDbContextModelSnapshot : ModelSnapshot
@@ -22,7 +22,7 @@ namespace NewProject.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("NewProject.Domain.Entities.IDM.IDMAccount", b =>
+            modelBuilder.Entity("MaintenanceSystem.Domain.Entities.IDM.IDMAccount", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -65,7 +65,7 @@ namespace NewProject.Infrastructure.Migrations
                     b.ToTable("IDM_ACCOUNT");
                 });
 
-            modelBuilder.Entity("NewProject.Domain.Entities.IDM.IDMAccountRole", b =>
+            modelBuilder.Entity("MaintenanceSystem.Domain.Entities.IDM.IDMAccountRole", b =>
                 {
                     b.Property<int>("AccountId")
                         .HasColumnType("int")
@@ -82,7 +82,7 @@ namespace NewProject.Infrastructure.Migrations
                     b.ToTable("IDM_ACCOUNT_ROLE");
                 });
 
-            modelBuilder.Entity("NewProject.Domain.Entities.IDM.IDMRole", b =>
+            modelBuilder.Entity("MaintenanceSystem.Domain.Entities.IDM.IDMRole", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -109,15 +109,15 @@ namespace NewProject.Infrastructure.Migrations
                     b.ToTable("IDM_ROLE");
                 });
 
-            modelBuilder.Entity("NewProject.Domain.Entities.IDM.IDMAccountRole", b =>
+            modelBuilder.Entity("MaintenanceSystem.Domain.Entities.IDM.IDMAccountRole", b =>
                 {
-                    b.HasOne("NewProject.Domain.Entities.IDM.IDMAccount", "Account")
+                    b.HasOne("MaintenanceSystem.Domain.Entities.IDM.IDMAccount", "Account")
                         .WithMany()
                         .HasForeignKey("AccountId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("NewProject.Domain.Entities.IDM.IDMRole", "Role")
+                    b.HasOne("MaintenanceSystem.Domain.Entities.IDM.IDMRole", "Role")
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)

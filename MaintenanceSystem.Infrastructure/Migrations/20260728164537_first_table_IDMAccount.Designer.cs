@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using NewProject.Infrastructure.Persistence;
+using MaintenanceSystem.Infrastructure.Persistence;
 
 #nullable disable
 
-namespace NewProject.Infrastructure.Migrations
+namespace MaintenanceSystem.Infrastructure.Migrations
 {
     [DbContext(typeof(ProjectDbContext))]
     [Migration("20260728164537_first_table_IDMAccount")]
@@ -25,7 +25,7 @@ namespace NewProject.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("NewProject.Domain.Entities.IDM.IDMAccount", b =>
+            modelBuilder.Entity("MaintenanceSystem.Domain.Entities.IDM.IDMAccount", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

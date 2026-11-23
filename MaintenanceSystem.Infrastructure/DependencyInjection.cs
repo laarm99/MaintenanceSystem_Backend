@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using NewProject.Infrastructure.Persistence;
+using MaintenanceSystem.Infrastructure.Persistence;
 
-namespace NewProject.Infrastructure
+namespace MaintenanceSystem.Infrastructure
 {
     public static class DependencyInjection
     {

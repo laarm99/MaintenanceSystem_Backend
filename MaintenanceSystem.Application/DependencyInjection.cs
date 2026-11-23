@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using NewProject.Application.Modules.Dashboard;
+using MaintenanceSystem.Application.Modules.Dashboard;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NewProject.Application
+namespace MaintenanceSystem.Application
 {
     public static class DependencyInjection
     {

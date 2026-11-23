@@ -1,5 +1,5 @@
-using NewProject.Application;
-using NewProject.Infrastructure;
+using MaintenanceSystem.Application;
+using MaintenanceSystem.Infrastructure;
 using Microsoft.AspNetCore.Authentication.Negotiate;
 using System.Security.Principal;
 

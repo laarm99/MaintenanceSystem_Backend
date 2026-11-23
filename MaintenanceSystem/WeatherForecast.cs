@@ -1,4 +1,4 @@
-namespace NewProject
+namespace MaintenanceSystem
 {
     public class WeatherForecast
     {

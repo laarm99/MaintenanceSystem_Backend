@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace NewProject.Domain.Entities.IDM
+namespace MaintenanceSystem.Domain.Entities.IDM
 {
     [Table("IDM_ACCOUNT_ROLE")]
     public class IDMAccountRole

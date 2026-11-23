@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using NewProject.Application.Modules.Dashboard;
-using NewProject.Common.Results;
-using NewProject.Web.Extensions;
+using MaintenanceSystem.Application.Modules.Dashboard;
+using MaintenanceSystem.Common.Results;
+using MaintenanceSystem.Web.Extensions;
 
-namespace NewProject.Controllers
+namespace MaintenanceSystem.Controllers
 {
     [ApiController]
     [Route("api/dashboard")]
