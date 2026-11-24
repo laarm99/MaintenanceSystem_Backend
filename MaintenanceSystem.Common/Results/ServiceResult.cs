@@ -49,6 +49,17 @@ namespace MaintenanceSystem.Common.Results
             };
         }
 
+        public static ServiceResult<T> BadRequest(string message, List<string> errors)
+        {
+            return new ServiceResult<T>
+            {
+                IsSuccess = false,
+                Message = message,
+                Errors = errors,
+                StatusCode = HttpStatusCode.BadRequest
+            };
+        }
+
         public static ServiceResult<T> NotFound(string message)
         {
             return new ServiceResult<T>

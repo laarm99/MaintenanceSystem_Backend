@@ -1,6 +1,6 @@
-@MaintenanceSystem_HostAddress = http://localhost:5103
+﻿@MaintenanceSystem_HostAddress = https://localhost:44345
 
-GET {{MaintenanceSystem_HostAddress}}/weatherforecast/
+GET {{MaintenanceSystem_HostAddress}}/api/auth/login
 Accept: application/json
 
 ###

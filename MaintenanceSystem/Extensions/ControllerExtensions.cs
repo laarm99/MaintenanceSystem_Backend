@@ -6,6 +6,17 @@ namespace MaintenanceSystem.Web.Extensions
 {
     public static class ControllerExtensions
     {
+        /// <summary>
+        /// Domain user name without the domain, upper case (same format as IDM_ACCOUNT.DOMAIN_USER_NAME).
+        /// </summary>
+        public static string GetUserName(this ControllerBase controller)
+        {
+            return controller.User.Identity?.Name?
+                .Split('\\')
+                .Last()
+                .ToUpperInvariant() ?? string.Empty;
+        }
+
         public static IActionResult FromServiceResult<T>(
        this ControllerBase controller,
        ServiceResult<T> result)
